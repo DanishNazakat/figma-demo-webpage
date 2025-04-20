@@ -23,12 +23,15 @@
     margin-left: 50px;
     width: 200px;
     height: 50px;
-    border:0.5px solid black;
+    border:1px solid black;
     border-radius: 10px;
     background-color: white;
     font-size: 16px;
 }
-
+.navbar-btn:hover{
+    background-color: rgb(185, 255, 102);
+    border: 1px solid rgb(175, 174, 174);
+}
 
 
 
@@ -213,4 +216,255 @@
 }
 .services-upper2 p{
     width: 280px;
+}
+
+
+
+
+.working2{
+    width: fit-content;
+    margin-top: 50px;
+}
+.working-divs1{
+    height: 200px;
+    background-color: #B9FF66;
+    border-radius: 45px;
+    border: 1px solid black;
+    border-bottom: 5px solid black;
+    padding: 20px 40px;
+
+}
+.working-divs1-upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.working-divs1 hr{
+    border-width: 0.5px;
+    border-color: #000000;
+}
+.working-divs-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.working-divs-icon-box{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F3F3;
+    rotate: 45deg;
+}
+.working-divs-icon-box img{
+    rotate: -45deg;
+    height: 20px;
+}
+.working-divs-icon-box1 img{
+    height: 7px;
+}
+
+.working-divs{
+    height: 80px;
+    background-color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-bottom: 5px solid black;
+    padding: 20px 40px;
+    border-radius: 45px;
+    margin-top: 20px;
+    font-weight:bolder;
+}
+
+
+
+
+
+
+
+
+/* 
+/* About us section */
+.aboutus{
+    height: 620px;
+    background-color: #F3F3F3;
+    margin-top: 50px;
+    border-radius: 45px;
+    padding: 50px 0px 30px 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+.aboutus-text{
+    width: 800px;
+    }
+.aboutus-text input{
+    margin-bottom: 30px;
+    }
+            
+.radio {
+                
+    height: 25px;
+    width: 25px;
+    accent-color: green;
+    }
+                
+ .radio-text{
+    margin-right: 100px;
+    text-align: center;
+}
+                    
+    .form-text{
+    width: 500px;
+    height: 50px;
+    padding: 0 20px;
+    margin-top:10px;
+    color:rgb(121, 117, 117) ;
+    border-radius: 14px;
+    }
+.form-text::placeholder{
+    color:rgba(137, 137, 137, 1);
+    font-weight: bolder;
+    }
+.form-text-label{
+    font-weight: 400;
+    }
+            
+.form-massage{
+    width: 480px;
+    height: 150px;
+    padding: 20px 30px;
+    border-radius: 14px;
+    margin-top: 10px;
+    
+    }
+                
+.form-massage::placeholder{
+    color:rgba(137, 137, 137, 1);
+    font-weight: bolder;
+    }
+                    
+.form-btn{
+    height: 60px;
+    width: 540px;
+    border-radius: 14px;
+    text-align: center;
+    background-color: #191A23;
+    color: #FFFFFF;
+    margin-top: 30px;
+    border: none;
+    }
+                    
+                            
+
+
+
+
+
+
+    /* footer section */
+
+    .footer{
+        height: 450px;
+        width: 1100;
+        background-color: #191A23;
+        border-radius: 45px;
+        margin-top: 80px;
+        color: #FFFFFF;
+        padding: 40px 40px;
+        font-weight: 400;
+    }
+    .footerhead{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footerhead-link ul li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 50px;
+        text-decoration: underline ;
+    }
+    .footerhead-icon button{
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+        border-radius: 50%;
+        border: none;
+        margin-right: 30px;
+    }
+
+
+    /* footer text */
+    .footer-text{
+        height: 250px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footercontact{
+        background-color: #191A23;
+        line-height: 25px;
+        font-weight: 400;
+    }
+    .footercontact button{
+        height: 30px;
+        width: 120px;
+        border-radius: 10px;
+        font-size: 18px;
+        border: none;
+        background-color: #B9FF66;
+    }
+
+    /* footer contact 2 */
+
+.footercontact2{
+    height: 150px;
+    width: 600px;
+    background-color: #292A32;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footercontact2 input{
+    border-radius: 10px;
+}
+.footercontact2-input{
+    border: 1px solid #FFFFFF;
+    background-color: #292A32;
+    padding: 0px 10px ;
+    height: 50px;
+    width: 250px;
+    color: white;
+}
+.footercontact2-input::placeholder{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+.footercontact2-btn{
+    height: 50px;
+    width: 270px;
+    background-color: #B9FF66;
+    border: none;
+    font-weight: bolder;
+
+}
+
+.footerp{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
